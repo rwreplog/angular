@@ -20,6 +20,7 @@ import { LoaderComponent } from './loader/loader.component';
     MatButtonModule,
   ],
   exports: [
+    LoaderComponent,
     //vendor
     CommonModule,
     RouterModule,
