@@ -1,11 +1,11 @@
 export const navbarData = [
   {
-    routeLink: 'dashboard',
+    routeLink: 'home',
     icon: '../../assets/images/home.svg',
     label: 'Home',
   },
   {
-    routeLink: 'dashboard',
+    routeLink: 'admin',
     icon: '../../assets/images/home.svg',
     label: 'Dashboard',
   },
@@ -13,5 +13,5 @@ export const navbarData = [
     routeLink: 'dashboard',
     icon: '../../assets/images/home.svg',
     label: 'Dashboard',
-  }
+  },
 ];
