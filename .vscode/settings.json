@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.debug": false,
+  "eslint.enable": false,
+  "prettier.prettierPath": "./node_modules/prettier",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "karmaTestExplorer.karmaConfFilePath": "./projects/czar-web/karma.conf.js"
+}

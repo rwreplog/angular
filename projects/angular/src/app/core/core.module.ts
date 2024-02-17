@@ -6,11 +6,13 @@ import { MainLayoutComponent } from './layout/main-layout/main-layout.component'
 import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { SidenavComponent } from '../shared/sidenav/sidenav.component';
 
 
 @NgModule({
   declarations: [
-    MainLayoutComponent
+    MainLayoutComponent,
+    SidenavComponent,
   ],
   imports: [
     BrowserModule,
@@ -22,6 +24,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   ],
   exports: [
     MainLayoutComponent,
+    SidenavComponent,
   ]
 })
 export class CoreModule { }
